@@ -23,4 +23,13 @@ forward substitution and find the y. After finding y we solve **Ux = y** with ba
 find the missing x. If we use LUP insted of LU we need to do matrix multiplication with 
 P (permutation matrix of LUP) and B, resulting with equation **Ly = PB** and **Ux = y**.
 
+## Examples
+See [testScript.py](testScript.py) for simple examples of LU/LUP and solving linear equations using LU decomposition.
 
+## Authors
+
+* **Andrijan Ostrun** - [aostrun](https://github.com/aostrun)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
